@@ -7,6 +7,10 @@ class Google extends StatefulWidget {
 class _GoogleState extends State<Google> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title:Text("Google")
+      ),
+    );
   }
 }
